@@ -41,7 +41,8 @@ pipeline {
 
     post {
         failure {
-            // Add post-failure actions if needed
+            // Add post-failure steps if needed
+            echo 'Pipeline failed!'
         }
     }
 }
